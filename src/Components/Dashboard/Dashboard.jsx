@@ -47,7 +47,7 @@ const Dashboard = () => {
     
     const handleGetUser = async () => {
         
-        fetch(`https://new-bit-pay-back-end-zefw.vercel.app/api/userdata/${id}`, {
+        fetch(`https://chi-backend.vercel.app/api/userdata/${id}`, {
             method: 'GET',
         })
         .then(response=> response.json())

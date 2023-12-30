@@ -35,7 +35,7 @@ const Payment = () => {
         copied: false,
       });
 
-      const url = `https://new-bit-pay-back-end-zefw.vercel.app/api/sendpayment/${id}`
+      const url = `https://chi-backend.vercel.app/api/sendpayment/${id}`
       
       const payNow = ()=> {
         setButtonDisabled(true)
