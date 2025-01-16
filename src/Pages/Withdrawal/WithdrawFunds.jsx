@@ -24,8 +24,8 @@ const WithdrawFunds = () => {
     const userData = useSelector((state) => state.persisitedReducer.user)
     console.log(userData);
 
-    const url = `https://new-bit-pay-back-end-zefw.vercel.app/api/requestwithdrawcode/${id}`
-    const urlll = `https://new-bit-pay-back-end-zefw.vercel.app/api/withdrawal`
+    const url = `https://chi-backend-omega.vercel.app/api/requestwithdrawcode/${id}`
+    const urlll = `https://chi-backend-omega.vercel.app/api/withdrawal`
 
     let userName = userData?.userName
     let email = userData?.email
